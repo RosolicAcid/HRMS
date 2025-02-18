@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Flask instance folder
+instance/
+
+# Python egg and distribution packages
+*.egg
+*.egg-info
+dist/
+build/
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flask-specific
+*.sqlite3
