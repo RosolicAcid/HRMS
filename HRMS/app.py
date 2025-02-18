@@ -6,7 +6,7 @@ app = Flask(__name__)
 def employee_profile():
     return render_template('employee_profile.html')
 
-@app.route('/login')
+@app.route('/')
 def login():
     return render_template('login.html')
 
